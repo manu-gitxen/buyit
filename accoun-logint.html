@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Buy.It</title>
+    <style>
+        .main-container{
+            display: flex;
+        }
+
+        .container1{
+        width: 50%;
+        height: 100dvh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;  /* stack logo, text, button */
+        align-items: center;     /* center horizontally */
+        justify-content: center; /* center group vertically */
+        text-align: center;
+        }
+
+        .container2{
+            width: 50%;
+            height: 100dvh;
+            background:  #0e1f69;
+        }
+
+        .container1 img{
+            width: 70%;
+            max-width: 500px;
+            height:auto ;
+            margin-bottom: 0.5rem; 
+           
+            /* margin-left:  min(23%); */
+
+        }
+        .p1-c1{
+            
+            font-size:clamp(0.5rem,2vw, 1.5rem) ;
+            font-family: sans-serif;
+            margin: 0;
+            
+        }
+        .p2-c1{
+            font-size:clamp(0.5rem,0.9vw, 0.9vw) ;
+            margin: 0.5rem 0 1rem 0;;
+        }
+        .container1 button{
+            display: block;
+            padding: clamp(0.5rem, 2vw, 0.8rem) clamp(1rem, 4vw, 2rem);
+            border: none;
+            border-radius: 5px;
+            background: #0e1f69;
+            color: white;
+            font-size:clamp(0.4rem, 1vw, 0.9vw);
+            cursor: pointer;
+            
+        }
+        .container1 a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container1">
+            <img src="images/logo/login/logo2.svg" alt="logo" center >
+            <p class="p1-c1">ONE PLACE TO BUY EVERYTHING</p>
+            <p class="p2-c1">Don't have an Account?</p>
+            <a href="signUp.html"><button>Sign Up</button></a>
+            
+
+        </div>
+        <div class="container2">
+
+        </div>
+    </div>
+</body>
+</html>
